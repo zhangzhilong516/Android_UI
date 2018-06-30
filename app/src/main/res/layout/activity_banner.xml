@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_banner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="subdragon.ui.com.android_ui.banner.BannerActivity">
+
+    <subdragon.ui.com.android_ui.banner.BannerView
+        android:id="@+id/bannerView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:withRatio="8"
+        app:heightRatio="5"
+        app:bottomColor="@color/banner_bottom_bar_bg"
+        app:dotDistance="4dp"
+        app:dotGravity="center"
+        app:dotIndicatorFocus="@color/colorAccent"
+        app:dotIndicatorNormal="@color/white"
+        app:dotSize="3dp"/>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="subdragon.ui.com.android_ui.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            android:text="首页"
+            android:layout_height="wrap_content"
+            style="@style/RadioButtonStyle"/>
+        <RadioButton
+            android:id="@+id/rb_new"
+            android:text="新鲜"
+            android:layout_height="wrap_content"
+            style="@style/RadioButtonStyle"/>
+        <RadioButton
+            android:id="@+id/rb_find"
+            android:text="发现"
+            android:layout_height="wrap_content"
+            style="@style/RadioButtonStyle"/>
+        <RadioButton
+            android:id="@+id/rb_mine"
+            android:text="我的"
+            android:layout_height="wrap_content"
+            style="@style/RadioButtonStyle"/>
+
+    </RadioGroup>
+
+</LinearLayout>
